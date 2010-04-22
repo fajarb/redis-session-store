@@ -1,3 +1,5 @@
+Add redis distributed storage. 
+
 A simple Redis-based session store for Redis. But why, you ask,
 when there's [redis-store](http://github.com/jodosha/redis-store/)?
 redis-store is a one-fits-all solution, and I found it not to work

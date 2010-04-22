@@ -22,8 +22,7 @@ class RedisSessionStore < ActionController::Session::AbstractStore
 
     @default_options = {
       :namespace => 'rack:session',
-      :host => 'localhost',
-      :port => '6379',
+      :hosts => ['localhost:6379'],
       :db => 0,
       :key_prefix => ""
     }.update(options)
